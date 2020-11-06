@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Ecommerce from './ecommerce';
 import * as serviceWorker from './serviceWorker';
+import Checkout from './components/checkout/checkout';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Ecommerce />
   </React.StrictMode>,
   document.getElementById('root')
 );
